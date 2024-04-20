@@ -1,0 +1,26 @@
+.header{
+  /* color: white !important; */
+  /* background-color: red !important; */
+  background-color: transparent !important;
+  z-index: 100 !important;
+  transition: .5s;
+}
+.navbar.colorChange {
+  background-color: rgb(24, 24, 24) !important;
+}
+.navbar.colorChange:hover {
+  background-color: rgb(24, 24, 24) !important;
+}
+.header:hover{
+  background-color: rgb(24, 24, 24) !important;
+
+}
+.navbarOptions{
+  display: flex;
+}
+@media only screen and (max-width: 750px) {
+.navbarOptions{
+  display: block !important;
+}
+
+} 

@@ -1,0 +1,13 @@
+.signform{
+  background-color: rgba(255, 255, 255, 0.132);
+  opacity: 1;
+  width: 25%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 50px;
+}
+@media screen and (max-width: 480px) {
+  .signform{
+    width: 80%;
+  }
+}
